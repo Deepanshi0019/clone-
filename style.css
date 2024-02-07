@@ -1,0 +1,142 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+main{
+    height:100%;
+    width:100%;
+}
+nav{
+     height: 100px;
+     display:flex;
+     align-items:center;
+     justify-content:space-between;
+     padding: 80px 70px;
+}
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 0% 40px;
+}
+#nav2{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+#nav2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 0% 25px;
+}
+#nav1 h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+#content{
+    padding: 50px 70px;
+}
+#content h3{
+    font-size: 40px;
+    font-weight: 500;
+    padding: 50px 30px;
+}
+#content h2{
+    font-size: 180px;
+    font-weight: 500;
+    line-height: 170px;
+    padding: 0% 30px;
+    letter-spacing: -6px;
+}
+#case{
+    margin-top: 80px;
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+#right{
+    display: flex;
+    align-items:center;
+    gap:40px;
+}
+#line{
+    height: 2px;
+    width: 150px;
+    background-color: black;
+}
+#case h5{
+    font-size: 25px;
+    font-weight: 100;
+}
+#imges{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    gap:90px;
+    padding: 0 50px;
+}
+#img1{
+    background-image: url(https://cdn.mos.cms.futurecdn.net/gV74X577zjRcfXXtp9UD3K-480-80.jpg);
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+}
+#img2{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/projects/404/d3bbe435378175.Y3JvcCw0MDUsMzE3LDAsMA.png);
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+}
+#bottom{
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+   padding: 50px 60px;
+   font-size: 30px;
+}
+
+#bottom-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+}
+#bottom-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    padding-right: 10px;
+}
+.arrow{
+    border: 2px solid;
+    height: 70px;
+    width: 15%;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 40px;
+    padding-top: 10px;
+
+}
+.arrow:hover{
+    background-color: black;
+    color: white;
+}
